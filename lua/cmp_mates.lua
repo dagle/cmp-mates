@@ -98,3 +98,5 @@ end
 function source:execute(completion_item, callback)
 	callback(completion_item)
 end
+
+return source
